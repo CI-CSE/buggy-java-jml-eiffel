@@ -22,7 +22,7 @@ authors:
     family-names: Weber
     email: reto.weber@sit.org
     affiliation: Constructor Institute
-repository-code: "https://github.com/CI-CSE/buggy-java-JML-eiffel"
+repository-code: "https://github.com/CI-CSE/buggy-java-jml-eiffel"
 abstract: >
   Eiffel translations verified using AutoProof of examples
   from "Exploring true test overfitting in dynamic automated
