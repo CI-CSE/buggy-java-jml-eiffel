@@ -1,0 +1,61 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: buggy-java-jml-eiffel
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Ilgiz
+    family-names: Mustafin
+    email: ilgiz.mustafin@constructor.org
+    affiliation: Constructor Institute
+    orcid: "https://orcid.org/0009-0007-0476-5966"
+    website: "https://imustafin.tatar"
+  - given-names: Alessandro
+    family-names: Schena
+    email: alessandro.schena@constructor.org
+    affiliation: Constructor Institute
+  - given-names: Reto
+    family-names: Weber
+    email: reto.weber@sit.org
+    affiliation: Constructor Institute
+repository-code: "https://github.com/CI-CSE/buggy-java-JML-eiffel"
+abstract: >
+  Eiffel translations verified using AutoProof of examples
+  from "Exploring true test overfitting in dynamic automated
+  program repair using formal methods." (2021) by Nilizadeh,
+  Amirfarhad, et al.
+keywords:
+  - eiffel
+  - autoproof
+  - software verification
+  - java
+  - jml
+  - bugs
+  - automatic program repair
+references:
+  - authors:
+      - family-names: Nilizadeh
+        given-names: Amirfarhad
+      - family-names: Leavens
+        given-names: "Gary T."
+      - family-names: Le
+        given-names: "Xuan-Bach D."
+      - family-names: Păsăreanu
+        given-names: "Corina S."
+      - family-names: Cok
+        given-names: "David R."
+    doi: "10.1109/ICST49551.2021.00033"
+    journal: >-
+      2021 14th IEEE Conference on Software Testing,
+      Validation and Verification (ICST)
+    year: 2021
+    title: >-
+      Exploring True Test Overfitting in Dynamic Automated Program
+      Repair using Formal Methods
+license: MIT
+commit: e82738bf094301ec56a20b53e9136d499b9ca41d
+date-released: "2024-02-13"
