@@ -3,7 +3,8 @@
 This repository contains examples from <https://github.com/Amirfarhad-Nilizadeh/BuggyJavaJML/tree/master>
 translated into Eiffel and fully verified with AutoProof.
 
-The examples were originally introduced by Amirfarhad Nilizadeh et al. in
+The examples were originally introduced by Amirfarhad Nilizadeh, Gary T. Leavens,
+Xuan-Bach D. Le, Corina S. Păsăreanu and David R. Cok in
 "Exploring true test overfitting in dynamic automated program repair using formal methods"
 *2021 14th IEEE Conference on Software Testing, Verification and Validation (ICST). IEEE, 2021*.
 
