@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - In `STR_PALINDROME_5` fix *not equals* syntax
 
+### Removed
+
+- Removed `TIME_74` because it has the same problem as `Time` 73
+
 ## [1.0.0] - 14-06-2025
 
 First released version
