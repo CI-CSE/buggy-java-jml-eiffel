@@ -45,7 +45,7 @@ feature
 				until
 					(Result >= {INTEGER}.Max_value) or (div (Result, l_num1) = 0 and div (Result, l_num2) = 0)
 				loop
-					Result := Result - 1 -- Result := Result + 1
+					Result := Result - 1
 				variant
 					{INTEGER}.Max_value - Result
 				end

@@ -220,7 +220,7 @@ feature {QS_STACK_QUEUE_100}
 			when 0 then stack.push (input)
 			when 1 then Result := stack.pop
 			when 2 then Result := stack.search (input)
-			when 3 then Result := if not stack.is_contain (input) then 1 else 0 end -- when 3 then Result := if stack.is_contain (input) then 1 else 0 end
+			when 3 then Result := if not stack.is_contain (input) then 1 else 0 end
 			when 4 then Result := stack_plus (stack)
 			when 5 then Result := stack_minus (stack)
 			when 6 then Result := stack_division (stack)

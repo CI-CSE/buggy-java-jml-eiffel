@@ -67,7 +67,7 @@ feature
 
 	get_previous_transaction: INTEGER
 		do
-			Result := if previous_transaction = 0 then 1 else 0 end -- Result := previous_transaction
+			Result := if previous_transaction = 0 then 1 else 0 end
 		ensure
 			result_is_previous_transaction: Result = previous_transaction
 		end

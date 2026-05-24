@@ -18,7 +18,7 @@ feature
 		local
 			i, mid: INTEGER
 		do
-			Result := False -- Result := True
+			Result := False
 			from
 				i := 2
 				mid := a // 2
@@ -29,7 +29,7 @@ feature
 				stops_early_enogh: not Result ⇒ i <= mid
 
 			until
-				i > mid -- i > mid ∨ not Result
+				i > mid
 			loop
 				if div (a, i) = 0 then
 					Result := False

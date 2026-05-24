@@ -79,7 +79,7 @@ feature
 			explicit: contracts
 		do
 			if 0 < a_amount then
-				Result := False -- Result := True
+				Result := False
 			else
 				Result := False
 			end

@@ -24,7 +24,7 @@ feature
 				when '%%' then
 					Result := a_num1 \\ a_num2
 				else
-					Result := 0 -- Result := -1
+					Result := 0
     		end
 		ensure
 			valid_sum:

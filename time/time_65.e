@@ -399,7 +399,7 @@ feature
 			elseif a_sel = 1 then
 				timer_2 (a_start.get_hour, a_start.get_minute, a_start.get_second)
 			elseif a_sel = 2 then
-				do_nothing -- timer
+				do_nothing
 			elseif a_sel = 3 then
 				if a_start.equals (a_stop) then
 					a_start.reset

@@ -9,7 +9,7 @@ feature
 		local
 			square_perimeter: INTEGER
 		do
-			square_perimeter := 4 // a_x -- square_perimeter := 4 * a_x
+			square_perimeter := 4 // a_x
 			Result := square_perimeter
 		ensure
 			res_perimeter_square: Result = 4 * a_x

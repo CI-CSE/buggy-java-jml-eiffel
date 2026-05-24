@@ -289,7 +289,6 @@ feature
 				foreign_transfer (amount)
 				Result := get_balance
 			when 6 then
-				-- withdraw_by_cash_back (amount) -- missing call is the bug
 				Result := get_balance
 			when 7 then
 				foreign_deposit (amount)

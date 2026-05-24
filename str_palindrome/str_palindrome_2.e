@@ -48,7 +48,7 @@ feature
 				wrap
 
 				i_counter := i_counter + 1
-				i := i + 1 -- i := i - 1
+				i := i + 1
 			end
 
 			check i_counter_full: i_counter = length end

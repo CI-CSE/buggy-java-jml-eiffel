@@ -28,7 +28,7 @@ feature
 		note
 			status: functional
 		do
-			Result := if 0 <= num then num else num end -- Result := if 0 <= num then num else - num end
+			Result := if 0 <= num then num else num end
 
 		ensure
 			result_is_positive: 0 <= Result

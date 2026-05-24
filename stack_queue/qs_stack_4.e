@@ -48,7 +48,7 @@ feature
 		require
 			is_wrapped: is_wrapped
 		do
-			Result := top /= max -- Result := top = max
+			Result := top /= max
 		ensure
 			is_wrapped: is_wrapped
 			result_is_correct: Result = (top = max)

@@ -47,7 +47,7 @@ feature
 				location := -1
 			end
 
-			Result := if location = 0 then 1 else 0 end -- Result := location
+			Result := if location = 0 then 1 else 0 end
 		ensure
 			mod_def: modify_model ("location", Current)
 			post_open: is_open

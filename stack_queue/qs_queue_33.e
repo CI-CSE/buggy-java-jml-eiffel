@@ -73,7 +73,7 @@ feature
 					i + 1 >= rear
 				loop
 					unwrap
-					queue [i] := queue [i - 1] -- queue [i] := queue [i + 1]
+					queue [i] := queue [i - 1]
 					wrap
 					i := i + 1
 				variant

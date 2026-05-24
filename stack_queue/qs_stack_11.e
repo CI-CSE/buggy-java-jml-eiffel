@@ -116,7 +116,7 @@ feature
 			is_wrapped: is_wrapped
 		do
 			if not is_empty then
-				Result := if arr [top] = 0 then 1 else 0 end -- Result := arr [top]
+				Result := if arr [top] = 0 then 1 else 0 end
 			else
 				unwrap
 				exception_is_raised := True

@@ -30,7 +30,7 @@ feature {NONE}
 	prime_array: SIMPLE_ARRAY [INTEGER]
 
 feature
-	prime_list (a_n: INTEGER): detachable SIMPLE_ARRAY [INTEGER] -- prime_list (a_n: INTEGER): SIMPLE_ARRAY [INTEGER]
+	prime_list (a_n: INTEGER): detachable SIMPLE_ARRAY [INTEGER]
 		note
 			status: impure
 			explicit: wrapping
@@ -96,7 +96,7 @@ feature
 			variant
 				{INTEGER}.Max_value - l_num
 			end
-			Result := Void -- Result := prime_array
+			Result := Void
 			wrap
 		ensure
 			modify (prime_array)

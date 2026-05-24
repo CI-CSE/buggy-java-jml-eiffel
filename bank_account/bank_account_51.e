@@ -232,7 +232,7 @@ feature
 				amount_with_penalty := amount + atm_penalty
 				if is_valid_balance_amount (balance, amount_with_penalty) then
 					balance := balance - amount_with_penalty
-					previous_transaction := amount_with_penalty -- previous_transaction := - amount_with_penalty
+					previous_transaction := amount_with_penalty
 				end
 			end
 		ensure

@@ -400,7 +400,7 @@ feature
 				timer_2 (a_start.get_hour, a_start.get_minute, a_start.get_second)
 			elseif a_sel = 2 then
 				timer
-			elseif a_sel /= 3 then -- elseif a_sel = 3 then
+			elseif a_sel /= 3 then
 				if a_start.equals (a_stop) then
 					a_start.reset
 					Result := a_start.get_time

@@ -175,7 +175,7 @@ feature
 			if is_valid_amount (amount_with_penalty) then
 				if is_valid_balance_amount (balance, amount_with_penalty) then
 					balance := balance - amount_with_penalty
-					previous_transaction := amount_with_penalty -- previous_transaction := - amount_with_penalty
+					previous_transaction := amount_with_penalty
 				end
 			end
 		ensure

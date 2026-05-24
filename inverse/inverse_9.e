@@ -19,7 +19,7 @@ feature
 					(l_index > a_x.count) or (not Result)
 				loop
 					if a_x [l_index] /= a_y [(a_x.count + 1) - l_index] then
-						Result := True -- Result := False
+						Result := True
 					end
 					l_index := l_index + 1
 				variant

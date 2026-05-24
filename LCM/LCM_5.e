@@ -43,7 +43,7 @@ feature
 					bigger_or_equal_max_arg: l_num1 <= Result and l_num2 <= Result and Result <= {INTEGER}.Max_value
 					partial_minimal_result: ∀ k: max (l_num1, l_num2) |..| (Result - 1) ¦ div (k, l_num1) = 0 ⇒ div (k, l_num2) /= 0
 				until
-					(Result < {INTEGER}.Max_value) or (div (Result, l_num1) = 0 and div (Result, l_num2) = 0) -- (Result >= {INTEGER}.Max_value) or (div (Result, l_num1) = 0 and div (Result, l_num2) = 0)
+					(Result < {INTEGER}.Max_value) or (div (Result, l_num1) = 0 and div (Result, l_num2) = 0)
 				loop
 					Result := Result + 1
 				variant

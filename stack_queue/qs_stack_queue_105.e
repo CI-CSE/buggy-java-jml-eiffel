@@ -320,7 +320,7 @@ feature {QS_STACK_QUEUE_105}
 			when 3 then Result := sq.stack_divide_queue (queue, stack)
 			when 4 then Result := sq.queue_modulus_stack (queue, stack)
 			else Result := sq.stack_modulus_queue (queue, stack) end
-			Result := if Result = 0 then 1 else 0 end -- Result := Result
+			Result := if Result = 0 then 1 else 0 end
 		ensure
 			modifies: modify (stack, queue)
 			op_0: op = 0 ⇒ Result = queue.get_elem (queue.front) + stack.get_elem (stack.top)

@@ -55,7 +55,6 @@ feature {QS_STACK_QUEUE_69}
 			two_things_on_stack: 2 <= stack.top
 			is_wrapped: stack.is_wrapped
 		do
-			 -- stack.push (stack.pop \\ stack.pop)
 			Result := stack.peek
 		ensure
 			modify: modify (stack)

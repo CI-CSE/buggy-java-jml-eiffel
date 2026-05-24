@@ -7,7 +7,7 @@ feature
 			index: INTEGER
 		do
 			check count_not_negative: x.count >= 0 end
-			if x.count /= 0 then -- if x.count = 0 then
+			if x.count /= 0 then
 				Result := -1
 			else
 

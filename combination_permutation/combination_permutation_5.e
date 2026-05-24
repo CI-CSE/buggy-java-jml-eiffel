@@ -29,7 +29,6 @@ feature {NONE}
 			Result := fac.factorial_loop (n) // fac.factorial_loop (n - r)
 		ensure
 			result_is_correct: Result = fac.factorial_rec (n) // fac.factorial_rec (n + r)
---			result_is_correct: Result = fac.factorial_rec (n) // fac.factorial_rec (n - r)
 		end
 
 	select_either (n: INTEGER; r: INTEGER; flag: BOOLEAN): INTEGER_64

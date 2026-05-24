@@ -35,7 +35,7 @@ feature
 			if not is_full then
 				unwrap
 				queue [rear] := data
-				rear := rear - 1 -- rear := rear + 1
+				rear := rear - 1
 				wrap
 			else
 				unwrap

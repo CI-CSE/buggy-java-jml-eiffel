@@ -34,7 +34,7 @@ feature
 				if div (a, i) = 0 then
 					Result := False
 				else
-					i := i - 1 -- i := i + 1
+					i := i - 1
 				end
 			variant
 				{INTEGER}.max_value - i - if Result then 0 else 1 end

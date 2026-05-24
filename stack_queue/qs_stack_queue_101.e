@@ -226,7 +226,7 @@ feature {QS_STACK_QUEUE_101}
 			when 6 then Result := stack_division (stack)
 			when 7 then Result := stack_modulus (stack)
 			else Result := stack.size end
-			Result := if Result = 0 then 1 else 0 end -- Result := Result
+			Result := if Result = 0 then 1 else 0 end
 		ensure
 			modifies_stack: modify (stack)
 			op_0: op = 0 ⇒ stack.get_elem (stack.top) = input ∧ stack.top = (old stack.top + 1) ∧ Result = 0

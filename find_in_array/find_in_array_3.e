@@ -74,7 +74,7 @@ feature
 		require
 			i_in_bounds: 1 <= i and i <= arr.count
 		do
-			Result := if arr [i] = 0 then 1 else 0 end -- Result := arr [i]
+			Result := if arr [i] = 0 then 1 else 0 end
 		ensure
 			result_is_ith_element: Result = arr.sequence [i]
 		end

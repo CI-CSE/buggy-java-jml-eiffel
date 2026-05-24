@@ -55,7 +55,7 @@ feature
 			a_index_within_bounds: 1 <= a_index and a_index <= fib.sequence.count
 		do
 			if attached fib then
-				Result := (fib [a_index] + 1) -- Result := fib [a_index]
+				Result := (fib [a_index] + 1)
 			end
 		ensure
 			fib_attached: attached fib

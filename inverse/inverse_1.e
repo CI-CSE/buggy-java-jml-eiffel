@@ -5,7 +5,7 @@ feature
 		local
 			l_index: INTEGER
 		do
-			if a_x.count = a_y.count then -- if a_x.count /= a_y.count then
+			if a_x.count = a_y.count then
 				Result := False
 			else
 				from

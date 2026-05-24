@@ -270,7 +270,7 @@ feature {QS_STACK_QUEUE_104}
 			when 6 then Result := queue_division (queue)
 			when 7 then Result := queue_modulus (queue)
 			else Result := queue.size end
-			Result := if Result = 0 then 1 else 0 end -- Result := Result
+			Result := if Result = 0 then 1 else 0 end
 		ensure
 			modifies_queue: modify (queue)
 			op_0: op = 0 ⇒ queue.get_elem (queue.rear - 1) = input ∧ queue.rear - 1 = (old queue.rear) ∧ Result = 0

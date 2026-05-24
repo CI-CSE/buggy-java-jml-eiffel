@@ -281,7 +281,6 @@ feature
 				withdraw (amount)
 				Result := get_balance
 			when 3 then
-				-- check_withdrawal (amount) -- missing call is the bug
 				Result := get_balance
 			when 4 then
 				Result := get_previous_transaction

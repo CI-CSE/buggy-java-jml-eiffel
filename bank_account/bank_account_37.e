@@ -191,7 +191,7 @@ feature
 			penalty, amount_with_penalty: INTEGER
 		do
 			penalty := (amount // 100) * 5
-			amount_with_penalty := amount + penalty -- amount_with_penalty := amount - penalty
+			amount_with_penalty := amount + penalty
 			if is_valid_amount (amount_with_penalty) then
 				balance := balance + amount_with_penalty
 				previous_transaction := amount_with_penalty

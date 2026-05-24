@@ -249,7 +249,7 @@ feature
 		do
 			if balance <= 20_000 then
 				interest := balance // 100
-			elseif balance < 160_000 then -- elseif balance <= 160_000 then
+			elseif balance < 160_000 then
 				t := balance // 100
 				interest := t * 2
 			elseif balance <= 300_000 then

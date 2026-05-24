@@ -261,7 +261,7 @@ feature {QS_STACK_QUEUE_102}
 		do
 			Result := 0
 			inspect op
-			when 0 then do_nothing -- when 0 then queue.enter (input)
+			when 0 then do_nothing
 			when 1 then Result := queue.delete
 			when 2 then Result := queue.search (input)
 			when 3 then Result := if queue.is_contain (input) then 1 else 0 end

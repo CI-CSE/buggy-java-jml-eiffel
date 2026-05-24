@@ -92,7 +92,7 @@ feature
 				l_count := l_count + 1
 			end
 			l_status := 1
-			l_num := l_num - 1 -- l_num := l_num + 1
+			l_num := l_num - 1
 			variant
 				{INTEGER}.Max_value - l_num
 			end

@@ -133,7 +133,7 @@ feature
 				if key = queue [index] then
 					Result := True
 				else
-					index := index - 1 -- index := index + 1
+					index := index - 1
 				end
 			variant
 				max - index - if Result then 1 else 0 end

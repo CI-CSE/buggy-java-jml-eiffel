@@ -31,7 +31,7 @@ feature
 				not_found_before: ∀ i: 1 |..| (c - 1) ¦ array.sequence [i] /= search
 				found_before2: found ⇒ array.sequence [c] = search
 			until
-				c > array.count + 1 or found -- c > array.count or found
+				c > array.count + 1 or found
 			loop
 				if array [c] = search then
 					location := c

@@ -82,7 +82,7 @@ feature
 				unwrap
 				rear := rear - 1
 				wrap
-				Result := if poll = 0 then 1 else 0 end -- Result := poll
+				Result := if poll = 0 then 1 else 0 end
 			else
 				unwrap
 				exception_is_raised := True

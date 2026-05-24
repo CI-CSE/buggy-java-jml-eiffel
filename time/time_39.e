@@ -232,7 +232,7 @@ feature
 			Result := if attached {TIME_39} a_object as a_time then
 				(hour = a_time.get_hour and minute = a_time.get_minute and second = a_time.get_second)
 			else
-				True -- False
+				True
 			end
 		ensure
 			a_object_not_time: not attached {TIME_39} a_object as a_time implies Result = False

@@ -358,7 +358,7 @@ feature
 			end
 
 			l_diff.set_minute (l_tmp_minute - a_start.get_minute)
-			l_diff.set_hour (l_tmp_hour + a_start.get_hour) -- l_diff.set_hour (l_tmp_hour - a_start.get_hour)
+			l_diff.set_hour (l_tmp_hour + a_start.get_hour)
 
 			Result := l_diff
 		ensure

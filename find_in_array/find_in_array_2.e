@@ -65,7 +65,7 @@ feature
 
 	get_key: INTEGER
 		do
-			Result := if key = 0 then 1 else 0 end -- Result := key
+			Result := if key = 0 then 1 else 0 end
 		ensure
 			result_is_key: Result = key
 		end

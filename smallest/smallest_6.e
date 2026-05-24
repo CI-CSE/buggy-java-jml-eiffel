@@ -22,7 +22,7 @@ feature
 					if a [index] < a [v_smallest] then
 						v_smallest := index
 					end
-					index := index - 1 -- index := index + 1
+					index := index - 1
 				end
 				Result := v_smallest
 			end

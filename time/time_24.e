@@ -150,7 +150,7 @@ feature
 			invariant
 				is_wrapped: is_wrapped
 			until
-				not is_time_zero -- is_time_zero
+				not is_time_zero
 			loop
 				decr
 			variant

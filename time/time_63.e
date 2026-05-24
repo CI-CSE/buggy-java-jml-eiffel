@@ -397,7 +397,7 @@ feature
 			if a_sel = 0 then
 				reset
 			elseif a_sel = 1 then
-				do_nothing -- timer_2 (a_start.get_hour, a_start.get_minute, a_start.get_second)
+				do_nothing
 			elseif a_sel = 2 then
 				timer
 			elseif a_sel = 3 then

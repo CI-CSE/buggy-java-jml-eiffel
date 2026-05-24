@@ -213,7 +213,7 @@ feature
 	later_than (a_time: TIME_32): BOOLEAN
 		do
 			if hour /= a_time.get_hour then
-				Result := hour <= a_time.get_hour -- Result := hour > a_time.get_hour
+				Result := hour <= a_time.get_hour
 			elseif minute /= a_time.get_minute then
 				Result := minute > a_time.get_minute
 			else

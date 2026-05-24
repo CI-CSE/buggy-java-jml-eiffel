@@ -144,7 +144,7 @@ feature
 		do
 			from
 				index := top
-				Result := 0 -- Result := -1
+				Result := 0
 			invariant
 				index_in_range: -1 <= index ∧ index <= top ∧ Result /= 0
 				not_found_until_now: Result = -1 ⇒ ∀ i: (index + 1) |..| top ¦ arr.sequence [i] /= key

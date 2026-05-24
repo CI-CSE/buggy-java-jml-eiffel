@@ -152,7 +152,6 @@ feature
 			until
 				is_time_zero
 			loop
-				-- decr
 			variant
 				convert_to_seconds
 			end

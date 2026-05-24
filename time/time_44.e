@@ -342,7 +342,7 @@ feature
 			l_tmp_minute := a_stop.get_minute
 			l_tmp_hour := a_stop.get_hour
 
-			if l_tmp_second <= a_start.get_second then -- if l_tmp_second < a_start.get_second then
+			if l_tmp_second <= a_start.get_second then
 				l_tmp_minute := l_tmp_minute - 1
 				l_tmp_second := l_tmp_second + 60
 				check stop_minute: l_tmp_minute = stop_minute (a_start, a_stop) end

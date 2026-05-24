@@ -173,7 +173,6 @@ feature
 			a_minute_within_bounds: 0 <= a_minute and a_minute < 60
 			a_second_within_bounds: 0 <= a_second and a_second < 60
 		do
-			-- set_hour (a_hour)
 			set_minute (a_minute)
 			set_second (a_second)
 			check assignment: hour = a_hour and minute = a_minute and second = a_second end

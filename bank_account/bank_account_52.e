@@ -247,7 +247,7 @@ feature
 		local
 			interest, t: INTEGER
 		do
-			if balance < 20_000 then -- if balance <= 20_000 then
+			if balance < 20_000 then
 				interest := balance // 100
 			elseif balance <= 160_000 then
 				t := balance // 100

@@ -105,7 +105,7 @@ feature
 			is_wrapped: is_wrapped
 		do
 			if not is_empty then
-				Result := if queue [front] = 0 then 1 else 0 end -- Result := queue [front]
+				Result := if queue [front] = 0 then 1 else 0 end
 			else
 				unwrap
 				exception_is_raised := True

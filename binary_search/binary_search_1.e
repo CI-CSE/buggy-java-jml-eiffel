@@ -8,7 +8,7 @@ feature
 		local
 			low, high, mid: INTEGER
 		do
-			if arr.count /= 0 then -- if arr.count = 0 then
+			if arr.count /= 0 then
 				Result := -1
 			else
 				low := 1

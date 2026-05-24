@@ -9,7 +9,7 @@ feature
 		local
 			mid: INTEGER
 		do
-			if a_start /= a_end then -- if a_start = a_end then
+			if a_start /= a_end then
 				Result := 0
 			else
 				mid := a_start + (a_end - a_start) // 2

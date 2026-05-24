@@ -10,7 +10,7 @@ feature {QS_STACK_QUEUE_61}
 			is_wrapped: stack.is_wrapped
 		do
 			stack.push (stack.pop + stack.pop)
-			Result := if stack.peek = 0 then 1 else 0 end -- Result := stack.peek
+			Result := if stack.peek = 0 then 1 else 0 end
 		ensure
 			modify: modify (stack)
 			result_is_correct: Result = old (stack.get_elem (stack.top) + stack.get_elem (stack.top - 1))

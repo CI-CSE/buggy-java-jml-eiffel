@@ -84,7 +84,7 @@ feature
 				partial_definition_fibonacci: ∀ i: 3 |..| (l_index - 1) ¦ fib.sequence [i] = fib.sequence [i - 1] + fib.sequence [i - 2]
 				sequence_is_partially_sorted: ∀ i: 3 |..| (l_index - 1) ¦ ∀ j: 3 |..| (i - 1) ¦ fib.sequence [j] < fib.sequence [i]
 			until
-				(attached fib) implies (l_index > (fib.sequence.count + 1)) -- (attached fib) implies (l_index > fib.sequence.count)
+				(attached fib) implies (l_index > (fib.sequence.count + 1))
 			loop
 				check assume: attached fib implies fib.sequence [l_index - 2] + fib.sequence [l_index - 1] > 0 end
 				if attached fib then

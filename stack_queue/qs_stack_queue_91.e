@@ -154,7 +154,7 @@ feature {QS_STACK_QUEUE_91}
 			is_wrapped: queue.is_wrapped ∧ stack.is_wrapped
 			divisor_not_zero: stack.get_elem (stack.top) /= 0
 		do
-			Result := queue.peek * stack.peek -- Result := queue.peek // stack.peek
+			Result := queue.peek * stack.peek
 		ensure
 			modify: modify (queue, stack)
 			result_is_correct: Result = queue.get_elem (queue.front) // stack.get_elem (stack.top)

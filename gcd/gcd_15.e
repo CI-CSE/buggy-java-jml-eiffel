@@ -96,7 +96,7 @@ feature
 					if divides_both (i, num1, num2) then
 						Result := i
 					end
-					i := i - 1 -- i := i + 1
+					i := i - 1
 				variant
 					num1 - i
 				end

@@ -35,7 +35,6 @@ feature {NONE}
 		require
 			input_in_range: 0 <= n and n <= 20 and 0 <= r and r <= n
 		do
---			if flag then
 			if not flag then
 				Result := combination (n, r)
 			else

@@ -100,7 +100,7 @@ feature
 			if 0 <= a_balance - a_amount then
 				Result := True
 			else
-				Result := True -- Result := False
+				Result := True
 			end
 		ensure
 			pos_balance_amount_valid: 0 <= a_balance - a_amount implies Result

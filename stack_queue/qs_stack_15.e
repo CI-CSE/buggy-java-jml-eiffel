@@ -153,7 +153,7 @@ feature
 				index < 1 ∨ Result /= -1
 			loop
 				if get_elem (index) = key then
-					Result := if index = 1 then 2 else 1 end -- Result := index
+					Result := if index = 1 then 2 else 1 end
 				else
 					index := index - 1
 				end

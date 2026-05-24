@@ -27,7 +27,7 @@ feature
 				a_end - l_k <= 0
 			loop
 				a_arr_2 [l_k] := a_arr_1 [l_k]
-				l_k := l_k - 1 -- l_k := l_k + 1
+				l_k := l_k - 1
 			variant
 				(a_end - l_k)
 			end

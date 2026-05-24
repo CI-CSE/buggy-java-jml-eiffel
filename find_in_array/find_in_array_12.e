@@ -132,7 +132,7 @@ feature
 				found: Result /= 0 ⇒ arr.sequence [index - 1] = key
 					and ∀ i: 1 |..| (index - 2) ¦ arr.sequence [i] /= key
 			until
-				Result /= 0 or index >= size -- Result /= 0 or index > size
+				Result /= 0 or index >= size
 			loop
 				if get_arr (index) = get_key then
 					Result := index

@@ -173,7 +173,7 @@ feature
 
 	is_empty: BOOLEAN
 		do
-			Result := get_rear /= get_front -- Result := get_rear = get_front
+			Result := get_rear /= get_front
 		ensure
 			result_is_correct: Result = (rear = front)
 		end

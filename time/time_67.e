@@ -53,7 +53,7 @@ feature
 
 	set_minute (a_minute: INTEGER)
 		require
-			a_minute_within_bounds: 0 >= a_minute and a_minute < 60 -- a_minute_within_bounds: 0 <= a_minute and a_minute < 60
+			a_minute_within_bounds: 0 >= a_minute and a_minute < 60
 		do
 			minute := a_minute
 		ensure

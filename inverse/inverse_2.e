@@ -16,7 +16,7 @@ feature
 					partially_inverted: Result implies (∀ i: 1 |..| (l_index - 1) ¦ a_x.sequence [i] = a_y.sequence [(a_x.sequence.count + 1) - i])
 					partially_not_inverted: (not Result) implies (∃ i: 1 |..| (l_index - 1) ¦ a_x.sequence [i] /= a_y.sequence [(a_x.sequence.count + 1) - i])
 				until
-					(l_index > (a_x.count + 1)) or (not Result) -- (l_index > a_x.count) or (not Result)
+					(l_index > (a_x.count + 1)) or (not Result)
 				loop
 					if a_x [l_index] /= a_y [(a_x.count + 1) - l_index] then
 						Result := False

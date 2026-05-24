@@ -152,7 +152,7 @@ feature
 						balance := l_balance
 						previous_transaction := - not_enough_money_penalty
 					else
-						previous_transaction := balance -- previous_transaction := - balance
+						previous_transaction := balance
 						balance := 0
 					end
 				end

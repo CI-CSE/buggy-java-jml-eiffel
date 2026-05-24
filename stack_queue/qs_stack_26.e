@@ -133,7 +133,7 @@ feature
 		require
 			i_in_range: 1 <= i ∧ i <= top
 		do
-			Result := if arr [i] = 0 then 1 else 0 end -- Result := arr [i]
+			Result := if arr [i] = 0 then 1 else 0 end
 		ensure
 			result_is_correct: Result = arr.sequence [i]
 		end

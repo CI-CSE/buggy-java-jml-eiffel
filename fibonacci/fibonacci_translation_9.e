@@ -88,7 +88,7 @@ feature
 			loop
 				check assume: attached fib implies fib.sequence [l_index - 2] + fib.sequence [l_index - 1] > 0 end
 				if attached fib then
-					fib [l_index] := fib [l_index + 2] + fib [l_index - 1] -- fib [l_index] := fib [l_index - 2] + fib [l_index - 1]
+					fib [l_index] := fib [l_index + 2] + fib [l_index - 1]
 					l_index := l_index + 1
 				end
 				check assume: attached fib implies fib.sequence [l_index - 2] < fib.sequence [l_index - 1] end

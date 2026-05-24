@@ -60,7 +60,7 @@ feature
 
 	get_balance: INTEGER
 		do
-			Result := if balance = 0 then 1 else 0 end -- Result := balance
+			Result := if balance = 0 then 1 else 0 end
 		ensure
 			result_is_balance: Result = balance
 		end

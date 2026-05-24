@@ -34,7 +34,7 @@ feature
 				end
 
 				if low >= high then
-					Result := 0 -- Result := -1
+					Result := 0
 				else
 					Result := mid
 				end

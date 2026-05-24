@@ -175,7 +175,6 @@ feature
 		do
 			set_hour (a_hour)
 			set_minute (a_minute)
-			-- set_second (a_second)
 			check assignment: hour = a_hour and minute = a_minute and second = a_second end
 			timer
 		ensure

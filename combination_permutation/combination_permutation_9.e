@@ -38,7 +38,6 @@ feature {NONE}
 			if flag then
 				Result := combination (n, r)
 			else
---				Result := permutation (n, r)
 				Result := permutation (n, r) + 1
 			end
 		ensure

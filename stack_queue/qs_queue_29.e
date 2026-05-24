@@ -57,7 +57,7 @@ feature
 		local
 			poll, i: INTEGER
 		do
-			if is_empty then -- if not is_empty then
+			if is_empty then
 				from
 					poll := queue [front]
 					i := 1

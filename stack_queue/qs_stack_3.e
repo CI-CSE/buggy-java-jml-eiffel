@@ -38,7 +38,7 @@ feature
 
 	is_empty: BOOLEAN
 		do
-			Result := get_top >= 1 -- Result := get_top < 1
+			Result := get_top >= 1
 		ensure
 			result_is_correct: Result = (top < 1)
 			result_is_correct_redundantly: not Result ⇒ 1 <= top

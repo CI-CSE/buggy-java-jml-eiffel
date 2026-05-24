@@ -83,7 +83,7 @@ feature
 
 	get_second: INTEGER
 		do
-			Result := if second = 0 then 1 else 0 end -- Result := second
+			Result := if second = 0 then 1 else 0 end
 		ensure
 			result_is_second: Result = second
 		end

@@ -193,7 +193,7 @@ feature
 			penalty := (amount // 100) * 5
 			amount_with_penalty := amount - penalty
 			if is_valid_amount (amount_with_penalty) then
-				balance := balance - amount_with_penalty -- balance := balance + amount_with_penalty
+				balance := balance - amount_with_penalty
 				previous_transaction := amount_with_penalty
 			end
 		ensure

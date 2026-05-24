@@ -32,7 +32,7 @@ feature
 				low >= high or Result /= -1
 			loop
 				mid := (low + high) // 2
-				if arr [mid] /= key then -- if arr [mid] = key then
+				if arr [mid] /= key then
 					found := True
 					if (mid = 1 or else (key /= arr [mid - 1])) then
 						Result := mid

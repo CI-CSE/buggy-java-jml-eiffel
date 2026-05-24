@@ -211,7 +211,7 @@ feature
 			amount_with_cashback := amount - cashback
 			if is_valid_amount (amount_with_cashback) then
 				if is_valid_balance_amount (balance, amount_with_cashback) then
-					balance := balance + amount_with_cashback -- balance := balance - amount_with_cashback
+					balance := balance + amount_with_cashback
 					previous_transaction := - amount_with_cashback
 				end
 			end

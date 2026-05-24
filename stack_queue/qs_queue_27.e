@@ -32,7 +32,7 @@ feature
 		require
 			is_wrapped: is_wrapped
 		do
-			if is_full then -- if not is_full then
+			if is_full then
 				unwrap
 				queue [rear] := data
 				rear := rear + 1

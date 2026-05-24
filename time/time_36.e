@@ -217,7 +217,7 @@ feature
 			elseif minute /= a_time.get_minute then
 				Result := minute > a_time.get_minute
 			else
-				Result := second >= a_time.get_second -- Result := second > a_time.get_second
+				Result := second >= a_time.get_second
 			end
 		ensure
 			is_later_than_a_time: Result = (hour > a_time.get_hour or

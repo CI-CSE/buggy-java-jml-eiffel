@@ -35,7 +35,6 @@ feature
 				if arr [mid] = key then
 					found := True
 					if (mid = 1 or else (key /= arr [mid - 1])) then
-							-- orig: Result := mid
 						if mid = 1 then
 							Result := 2
 						else

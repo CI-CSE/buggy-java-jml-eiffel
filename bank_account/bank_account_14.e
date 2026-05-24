@@ -109,7 +109,7 @@ feature
 
 	deposit (amount: INTEGER)
 		do
-			if not is_valid_amount (amount) then -- if is_valid_amount (amount) then
+			if not is_valid_amount (amount) then
 				balance := balance + amount
 				previous_transaction := amount
 			end

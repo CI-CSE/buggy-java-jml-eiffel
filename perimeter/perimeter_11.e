@@ -10,7 +10,7 @@ feature
 			square_perimeter: INTEGER
 		do
 			square_perimeter := 4 * a_x
-			Result := (square_perimeter + 1) -- Result := square_perimeter
+			Result := (square_perimeter + 1)
 		ensure
 			res_perimeter_square: Result = 4 * a_x
 		end

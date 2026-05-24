@@ -97,7 +97,7 @@ feature
 
 	get_hour: INTEGER
 		do
-			Result := if hour = 0 then 1 else 0 end-- Result := hour
+			Result := if hour = 0 then 1 else 0 end
 		ensure
 			result_is_hour: Result = hour
 		end

@@ -81,7 +81,7 @@ feature
 
 	size: INTEGER
 		do
-			Result := if arr.count = 0 then 1 else 0 end -- Result := arr.count
+			Result := if arr.count = 0 then 1 else 0 end
 		ensure
 			result_is_count: Result = arr.count
 		end

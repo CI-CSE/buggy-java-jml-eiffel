@@ -160,7 +160,7 @@ feature
 				if key = queue [index] then
 					Result := index
 				else
-					index := index - 1 -- index := index + 1
+					index := index - 1
 				end
 			variant
 				max - index - if Result = -1 then 0 else 1 end

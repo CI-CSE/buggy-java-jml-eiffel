@@ -21,7 +21,7 @@ feature
 					if a_x [l_index] /= a_y [(a_x.count + 1) - l_index] then
 						Result := False
 					end
-					l_index := l_index - 1 -- l_index := l_index + 1
+					l_index := l_index - 1
 				variant
 					(a_x.count + 1) - l_index
 				end

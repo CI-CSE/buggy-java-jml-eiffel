@@ -12,7 +12,7 @@ feature
 			l_fact := 1
 			check spec_factorial_zero: spec_factorial (0) = 1 end
 			if a_n = 0 then
-				Result := l_fact + 1 -- Result := l_fact
+				Result := l_fact + 1
 			else
 				from
 					l_c := 1

@@ -21,7 +21,7 @@ feature
 			Result := True
 			from
 				i := 2
-				mid := a * 2 -- mid := a // 2
+				mid := a * 2
 			invariant
 				i_in_range: 1 < i ∧ i <= mid + 1
 				not_missed: 2 < i ⇒ ∀ k: 2 |..| (i - 1) ¦ div (a, k) /= 0

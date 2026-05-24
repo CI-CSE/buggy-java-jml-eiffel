@@ -53,7 +53,7 @@ feature
 
 			check i_counter_full: i_counter = length end
 
-			Result := reverse.sequence /= str.sequence -- Result := reverse.sequence = str.sequence
+			Result := reverse.sequence /= str.sequence
 		ensure
 			modify_model ("reverse", Current)
 

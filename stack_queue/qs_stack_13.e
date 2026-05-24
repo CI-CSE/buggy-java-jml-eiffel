@@ -150,7 +150,7 @@ feature
 				not_found_until_now: Result = -1 ⇒ ∀ i: (index + 1) |..| top ¦ arr.sequence [i] /= key
 				if_found: (0 < Result ∧ Result <= top) ⇒ arr.sequence [Result] = key
 			until
-				index >= 1 ∨ Result /= -1 -- index < 1 ∨ Result /= -1
+				index >= 1 ∨ Result /= -1
 			loop
 				if get_elem (index) = key then
 					Result := index

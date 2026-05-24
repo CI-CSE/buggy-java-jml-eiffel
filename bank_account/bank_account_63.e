@@ -256,7 +256,7 @@ feature
 				t := balance // 100
 				interest := t * 3
 			else
-				t := balance * 100 -- t := balance // 100
+				t := balance * 100
 				interest := t * 4
 			end
 			Result := interest

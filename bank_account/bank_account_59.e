@@ -252,7 +252,7 @@ feature
 			elseif balance <= 160_000 then
 				t := balance // 100
 				interest := t * 2
-			elseif balance < 300_000 then -- elseif balance <= 300_000 then
+			elseif balance < 300_000 then
 				t := balance // 100
 				interest := t * 3
 			else

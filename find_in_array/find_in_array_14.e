@@ -134,7 +134,7 @@ feature
 			until
 				Result /= 0 or index > size
 			loop
-				if get_arr (index) /= get_key then -- if get_arr (index) = get_key then
+				if get_arr (index) /= get_key then
 					Result := index
 				end
 

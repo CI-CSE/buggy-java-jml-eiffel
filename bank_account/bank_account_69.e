@@ -286,7 +286,6 @@ feature
 			when 4 then
 				Result := get_previous_transaction
 			when 5 then
-				-- foreign_transfer (amount) -- missing call is the bug
 				Result := get_balance
 			when 6 then
 				withdraw_by_cash_back (amount)

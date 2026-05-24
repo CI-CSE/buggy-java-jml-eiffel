@@ -28,7 +28,7 @@ feature
 				variant
 					a_n - l_c
 				end
-				Result := l_fact + 1 -- Result := l_fact
+				Result := l_fact + 1
 			end
 
 		ensure

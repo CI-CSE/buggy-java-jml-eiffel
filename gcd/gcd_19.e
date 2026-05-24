@@ -93,7 +93,6 @@ feature
 				until
 					i > num1 ∨ i > num2
 				loop
---					if divides_both (i, num1, num2) then
 					if div (num1, i) = 0 ∧ div (num2, i) /= 0 then
 						Result := i
 					end

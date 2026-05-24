@@ -19,7 +19,7 @@ feature
 				until
 					x.count - index < 0 or else x [index] = 0
 				loop
-					index := index - 1 -- index := index + 1
+					index := index - 1
 				variant
 					x.count - index
 				end

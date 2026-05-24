@@ -34,7 +34,7 @@ feature
 			status: creator
 			explicit: wrapping, contracts
 		do
-			if 2 < a_size and a_size <= 93 then -- if 2 <= a_size and a_size <= 93 then
+			if 2 < a_size and a_size <= 93 then
 				create fib.make (a_size)
 				fib [1] := 0
 				fib [2] := 1

@@ -154,7 +154,7 @@ feature
 		do
 			first := find_first
 			last := find_last
-			Result := first = last -- Result := first /= last
+			Result := first = last
 		ensure
 			result_def: result = (find_last /= find_first)
 		end

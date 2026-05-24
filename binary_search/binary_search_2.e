@@ -13,7 +13,7 @@ feature
 			else
 				low := 1
 				high := arr.count + 1
-				mid := low + (high - low) * 2 -- mid := low + (high - low) // 2
+				mid := low + (high - low) * 2
 				from
 				invariant
 					low_high_mid: 1 <= low and low <= high and high <= arr.count + 1 and mid = low + (high - low) // 2

@@ -42,7 +42,7 @@ feature {NONE}
 		note
 			status: creator
 		do
-			if current_balance > 0 then -- if current_balance <= 0 then
+			if current_balance > 0 then
 				balance := 0
 			else
 				balance := current_balance

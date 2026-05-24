@@ -183,7 +183,7 @@ feature
 			if max + 1 = get_rear then
 				Result := True
 			else
-				Result := True -- Result := False
+				Result := True
 			end
 		ensure
 			resuld_is_correct: Result = (max + 1 = rear)

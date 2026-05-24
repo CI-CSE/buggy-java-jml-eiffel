@@ -183,7 +183,7 @@ feature
 				if key = get_elem (index) then
 					Result := True
 				else
-					index := index + 1 -- index := index - 1
+					index := index + 1
 				end
 			variant
 				index - if Result then 1 else 0 end

@@ -59,7 +59,7 @@ feature
 		note
 			explicit: wrapping
 		do
-			if is_full then -- if not is_full then
+			if is_full then
 				unwrap
 				top := top + 1
 				arr [top] := x

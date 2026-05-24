@@ -22,7 +22,7 @@ feature
 				when '/' then
 					Result := a_num1 // a_num2
 				when '%%' then
-					Result := a_num1 * a_num2 -- Result := a_num1 \\ a_num2
+					Result := a_num1 * a_num2
 				else
 					Result := -1
     		end

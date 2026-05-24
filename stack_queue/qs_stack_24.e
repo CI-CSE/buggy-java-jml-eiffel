@@ -195,7 +195,7 @@ feature
 
 	size: INTEGER
 		do
-			Result := get_top - 1 -- Result := get_top
+			Result := get_top - 1
 		ensure
 			result_is_correct: Result = top
 		end

@@ -33,7 +33,7 @@ feature
 					high - low
 				end
 
-				if low < high then -- if low >= high then
+				if low < high then
 					Result := -1
 				else
 					Result := mid

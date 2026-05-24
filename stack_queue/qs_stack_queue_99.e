@@ -217,7 +217,7 @@ feature {QS_STACK_QUEUE_99}
 		do
 			Result := 0
 			inspect op
-			when 0 then do_nothing -- when 0 then stack.push (input)
+			when 0 then do_nothing
 			when 1 then Result := stack.pop
 			when 2 then Result := stack.search (input)
 			when 3 then Result := if stack.is_contain (input) then 1 else 0 end

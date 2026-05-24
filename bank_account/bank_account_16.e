@@ -122,7 +122,7 @@ feature
 
 	withdraw (amount: INTEGER)
 		do
-			if not is_valid_amount (amount) then -- if is_valid_amount (amount) then
+			if not is_valid_amount (amount) then
 				if is_valid_balance_amount (balance, amount) then
 					balance := balance - amount
 					previous_transaction := - amount

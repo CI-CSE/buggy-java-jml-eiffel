@@ -141,7 +141,7 @@ feature
 			not_enough_money_penalty: INTEGER
 			l_balance: INTEGER
 		do
-			if not is_valid_amount (amount) then -- if is_valid_amount (amount) then
+			if not is_valid_amount (amount) then
 				if is_valid_balance_amount (balance, amount) then
 					balance := balance - amount
 					previous_transaction := - amount

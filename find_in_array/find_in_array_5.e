@@ -91,7 +91,7 @@ feature
 			index: INTEGER
 		do
 			from
-				index := size + 1 -- index := size
+				index := size + 1
 			invariant
 				result_bounds: 0 <= Result and Result <= arr.count
 				result_and_index: Result /= 0 ⇒ Result = index + 1

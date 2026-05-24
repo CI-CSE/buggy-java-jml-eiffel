@@ -50,7 +50,7 @@ feature
 					{INTEGER}.Max_value - Result
 				end
 				if not (div (Result, l_num1) = 0 and div (Result, l_num2) = 0) then
-					Result := 0 -- Result := -1
+					Result := 0
 				end
 			end
 		ensure

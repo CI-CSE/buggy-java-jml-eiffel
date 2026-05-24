@@ -69,7 +69,7 @@ feature
 			if num1 = 0 ∧ num2 = 0 then
 				Result := -1
 			elseif num1 = 0 ∨ num2 = 0 then
-				if num1 <= num2 then -- if num1 > num2 then
+				if num1 <= num2 then
 					Result := num1
 				else
 					Result := num2

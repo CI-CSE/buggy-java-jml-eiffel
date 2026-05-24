@@ -115,7 +115,7 @@ feature
 		require
 			is_wrapped: is_wrapped
 		do
-			if is_time_zero then -- if not is_time_zero then
+			if is_time_zero then
 				unwrap
 				second := second - 1
 				if second < 0 then

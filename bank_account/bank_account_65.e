@@ -259,7 +259,7 @@ feature
 				t := balance // 100
 				interest := t * 4
 			end
-			Result := if interest = 0 then 1 else 0 end -- Result := interest
+			Result := if interest = 0 then 1 else 0 end
 		ensure
 			less_2k: balance <= 20_000 implies Result = balance // 100
 			from_20k: 20_000 < balance and balance <= 160_000 implies Result = (balance // 100) * 2

@@ -29,7 +29,7 @@ feature
 				if_result_it_is_correct: (1 <= Result and Result <= arr.sequence.count) ⇒ (arr.sequence [Result] = key and (∀ i: 1 |..| (Result - 1) ¦ arr [i] /= key))
 
 			until
-				low > high or Result /= -1 -- low >= high or Result /= -1
+				low > high or Result /= -1
 			loop
 				mid := (low + high) // 2
 				if arr [mid] = key then

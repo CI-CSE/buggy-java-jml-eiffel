@@ -24,7 +24,7 @@ feature
 					l_c > a_n
 				loop
 					l_fact := l_fact * l_c
-					l_c := l_c - 1 -- l_c := l_c + 1
+					l_c := l_c - 1
 				variant
 					a_n - l_c
 				end

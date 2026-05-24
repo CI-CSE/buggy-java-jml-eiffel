@@ -80,7 +80,7 @@ feature
 				until
 					(l_j > l_num // 2) or (l_num \\ l_j = 0)
 				loop
-					l_j := l_j - 1 -- l_j := l_j + 1
+					l_j := l_j - 1
 				variant
 					l_num - l_j
 				end

@@ -101,7 +101,7 @@ feature
 				found: Result /= 0 ⇒ arr.sequence [index + 1] = key
 					and ∀ i: (index + 2) |..| arr.count ¦ arr.sequence [i] /= key
 			until
-				Result /= 0 or 1 >= index -- Result /= 0 or 1 > index
+				Result /= 0 or 1 >= index
 			loop
 				if get_arr (index) = get_key then
 					Result := index

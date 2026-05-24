@@ -18,7 +18,6 @@ feature {NONE}
 			fac_is_correct: fac /= Void
 		do
 			Result := fac.factorial_loop (n) * (fac.factorial_loop (r) * fac.factorial_loop (n - r))
---			Result := fac.factorial_loop (n) // (fac.factorial_loop (r) * fac.factorial_loop (n - r))
 		ensure
 			result_is_correct: Result = fac.factorial_rec (n) // (fac.factorial_rec (r) * fac.factorial_rec (n - r))
 		end

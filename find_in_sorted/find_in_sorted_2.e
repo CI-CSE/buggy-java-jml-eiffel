@@ -10,7 +10,7 @@ feature
 			mid: INTEGER
 		do
 			if a_start = a_end then
-				Result := 1 -- Result := 0
+				Result := 1
 			else
 				mid := a_start + (a_end - a_start) // 2
 				if a_x < a_arr [mid] then

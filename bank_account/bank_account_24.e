@@ -147,7 +147,7 @@ feature
 					previous_transaction := - amount
 				else
 					not_enough_money_penalty := 50
-					l_balance := balance + not_enough_money_penalty -- l_balance := balance - not_enough_money_penalty
+					l_balance := balance + not_enough_money_penalty
 					if 0 <= l_balance then
 						balance := l_balance
 						previous_transaction := - not_enough_money_penalty

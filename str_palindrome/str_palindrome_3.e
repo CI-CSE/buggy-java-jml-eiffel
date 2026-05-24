@@ -31,7 +31,7 @@ feature
 			length := str.count
 
 			from
-				i := length -- i := length + 1
+				i := length
 				i_counter := 0
 			invariant
 				is_wrapped

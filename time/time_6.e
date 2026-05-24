@@ -92,7 +92,7 @@ feature
 		note
 			status: functional
 		do
-			Result := if minute = 0 then 1 else 0 end -- Result := minute
+			Result := if minute = 0 then 1 else 0 end
 		end
 
 	get_hour: INTEGER

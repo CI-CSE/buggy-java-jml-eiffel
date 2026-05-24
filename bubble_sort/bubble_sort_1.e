@@ -53,7 +53,7 @@ feature
 				variant
 					n - j
 				end
-				i := i - 1 -- i := i + 1
+				i := i - 1
 			variant
 				n - i
 			end

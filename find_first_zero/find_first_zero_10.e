@@ -28,7 +28,7 @@ feature
 					index := -1
 				end
 
-				Result := if index = 0 then 1 else 0 end -- Result := index
+				Result := if index = 0 then 1 else 0 end
 			end
 		ensure
 			empty_results_minus_one: x.count = 0 implies Result = -1

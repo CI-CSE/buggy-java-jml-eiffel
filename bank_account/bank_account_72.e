@@ -297,7 +297,6 @@ feature
 			when 8 then
 				Result := interest_after_year
 			when 9 then
-				-- atm_withdraw (amount) -- missing call is the bug
 				Result := get_balance
 			else
 				Result := get_balance

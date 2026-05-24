@@ -278,7 +278,6 @@ feature
 				deposit (amount)
 				Result := get_balance
 			when 2 then
-				-- withdraw (amount) -- missing call is the bug
 				Result := get_balance
 			when 3 then
 				check_withdrawal (amount)

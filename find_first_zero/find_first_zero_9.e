@@ -8,7 +8,7 @@ feature
 		do
 			check count_not_negative: x.count >= 0 end
 			if x.count = 0 then
-				Result := 0 -- Result := -1
+				Result := 0
 			else
 
 				from

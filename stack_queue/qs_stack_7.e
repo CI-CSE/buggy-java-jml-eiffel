@@ -88,7 +88,7 @@ feature
 		require
 			is_wrapped: is_wrapped
 		do
-			if is_empty then -- if not is_empty then
+			if is_empty then
 				Result := arr [top]
 				unwrap
 				top := top - 1

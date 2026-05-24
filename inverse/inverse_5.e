@@ -18,7 +18,7 @@ feature
 				until
 					(l_index > a_x.count) or (not Result)
 				loop
-					if a_x [l_index] /= a_y [(a_x.count + 1) + l_index] then -- if a_x [l_index] /= a_y [(a_x.count + 1) - l_index] then
+					if a_x [l_index] /= a_y [(a_x.count + 1) + l_index] then
 						Result := False
 					end
 					l_index := l_index + 1

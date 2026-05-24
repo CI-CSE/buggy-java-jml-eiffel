@@ -17,7 +17,7 @@ feature
 					smalles_in_range: 1 <= v_smallest ∧ v_smallest <= a.sequence.count
 					smalles_until_now: ∀ i: 1 |..| (index - 1) ¦ a.sequence [v_smallest] <= a.sequence [i]
 				until
-					a.count + index < 0 -- a.count + 1 - index <= 0
+					a.count + index < 0
 				loop
 					if a [index] < a [v_smallest] then
 						v_smallest := index

@@ -57,7 +57,7 @@ feature
 		local
 			triangle_perimeter: INTEGER
 		do
-			triangle_perimeter := a_x - a_y + a_z -- triangle_perimeter := a_x + a_y + a_z
+			triangle_perimeter := a_x - a_y + a_z
 			Result := triangle_perimeter
 		ensure
 			res_perimeter_triangle: Result = a_x + a_y + a_z

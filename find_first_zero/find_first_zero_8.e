@@ -24,7 +24,7 @@ feature
 					x.count - index
 				end
 
-				if x.count - index /= -1 then -- if x.count - index = -1 then
+				if x.count - index /= -1 then
 					index := -1
 				end
 

@@ -28,7 +28,7 @@ feature
 					else
 						high := mid
 					end
-					mid := low - (high - low) // 2 -- mid := low + (high - low) // 2
+					mid := low - (high - low) // 2
 				variant
 					high - low
 				end

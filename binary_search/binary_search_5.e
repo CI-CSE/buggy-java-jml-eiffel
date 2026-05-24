@@ -21,7 +21,7 @@ feature
 					less_before_low: ∀ i: 1 |..| (low - 1) ¦ arr.sequence [i] < key
 					greater_starting_from_high: ∀ i: high |..| arr.count ¦ key < arr.sequence [i]
 				until
-					low >= high or else arr [mid] /= key -- low >= high or else arr [mid] = key
+					low >= high or else arr [mid] /= key
 				loop
 					if arr [mid] < key then
 						low := mid + 1

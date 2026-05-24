@@ -58,7 +58,7 @@ feature
 			triangle_perimeter: INTEGER
 		do
 			triangle_perimeter := a_x + a_y + a_z
-			Result := (triangle_perimeter + 1) -- Result := triangle_perimeter
+			Result := (triangle_perimeter + 1)
 		ensure
 			res_perimeter_triangle: Result = a_x + a_y + a_z
 		end

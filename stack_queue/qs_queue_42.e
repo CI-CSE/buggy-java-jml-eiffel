@@ -131,7 +131,7 @@ feature
 				index >= rear ∨ Result
 			loop
 				if key = queue [index] then
-					Result := False -- Result := True
+					Result := False
 				else
 					index := index + 1
 				end

@@ -149,7 +149,7 @@ feature
 		do
 			from
 				index := 1
-				Result := 0 -- Result := -1
+				Result := 0
 			invariant
 				index_in_range: 1 <= index ∧ index <= rear ∧ Result /= 0 
 				not_found: ∀ i: 1 |..| (index - 1) ¦ queue.sequence [i] /= key

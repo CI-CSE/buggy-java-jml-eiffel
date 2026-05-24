@@ -121,7 +121,7 @@ feature
 				if second < 0 then
 					second := 59
 					minute := minute - 1
-					if minute <= 0 then -- if minute < 0 then
+					if minute <= 0 then
 						minute := 59
 						hour := hour - 1
 						-- if hour < 0 then

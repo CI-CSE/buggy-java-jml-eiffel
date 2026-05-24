@@ -61,7 +61,7 @@ feature
 				partial_prime_implies_coprime_with_all_smaller: ∀ i: 1 |..| (l_count - 1) ¦ ∀ j: 2 |..| (prime_array.sequence [i] // 2) ¦ not (prime_array.sequence [i] \\ j = 0)
 				is_partially_sorted: ∀ i: 1 |..| (l_count - 1) ¦ ∀ j: 1 |..| (i - 1) ¦ prime_array.sequence [j] < prime_array.sequence [i]
 			until
-				l_count <= a_n -- l_count > a_n
+				l_count <= a_n
 			loop
 				l_count_count := l_count
 				from

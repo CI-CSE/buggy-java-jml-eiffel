@@ -32,7 +32,7 @@ feature
 				i > mid ∨ not Result
 			loop
 				if div (a, i) = 0 then
-					Result := True -- Result := False
+					Result := True
 				else
 					i := i + 1
 				end

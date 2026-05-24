@@ -354,7 +354,7 @@ feature
 
 			if l_tmp_minute < a_start.get_minute then
 				l_tmp_hour := l_tmp_hour - 1
-				l_tmp_minute := l_tmp_minute - 60 -- l_tmp_minute := l_tmp_minute + 60
+				l_tmp_minute := l_tmp_minute - 60
 			end
 
 			l_diff.set_minute (l_tmp_minute - a_start.get_minute)

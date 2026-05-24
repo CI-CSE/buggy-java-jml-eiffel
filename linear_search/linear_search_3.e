@@ -33,7 +33,7 @@ feature
 			until
 				c > array.count or found
 			loop
-				if array [c] /= search then -- if array [c] = search then
+				if array [c] /= search then
 					location := c
 					found := True
 				else

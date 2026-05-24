@@ -33,7 +33,7 @@ feature
 		local
 			hexagon_perimeter: INTEGER
 		do
-			hexagon_perimeter := 6 // a_x -- hexagon_perimeter := 6 * a_x
+			hexagon_perimeter := 6 // a_x
 			Result := hexagon_perimeter
 		ensure
 			res_perimeter_hexagon: Result = 6 * a_x

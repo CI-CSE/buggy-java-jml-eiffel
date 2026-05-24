@@ -350,7 +350,7 @@ feature
 
 			check stop_minute: l_tmp_minute = stop_minute (a_start, a_stop) end
 
-			l_diff.set_second (l_tmp_second + a_start.get_second) -- l_diff.set_second (l_tmp_second - a_start.get_second)
+			l_diff.set_second (l_tmp_second + a_start.get_second)
 
 			if l_tmp_minute < a_start.get_minute then
 				l_tmp_hour := l_tmp_hour - 1

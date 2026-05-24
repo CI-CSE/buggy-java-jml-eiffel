@@ -34,7 +34,7 @@ feature
 				mid := (low + high) // 2
 				if arr [mid] = key then
 					found := True
-					if (mid /= 1 or else (key /= arr [mid - 1])) then -- if (mid = 1 or else (key /= arr [mid - 1])) then
+					if (mid /= 1 or else (key /= arr [mid - 1])) then
 						Result := mid
 					else
 						high := mid

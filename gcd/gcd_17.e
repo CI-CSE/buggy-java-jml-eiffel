@@ -91,7 +91,7 @@ feature
 						) ⇒ (∀ j: (Result + 1) |..| (i-1) ¦ not divides_both (j, num1, num2)) -- then the conclusion holds
 
 				until
-					i > num1 ∨ i <= num2 -- i > num1 ∨ i > num2
+					i > num1 ∨ i <= num2
 				loop
 					if divides_both (i, num1, num2) then
 						Result := i

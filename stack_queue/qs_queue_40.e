@@ -128,7 +128,7 @@ feature
 				not_found_until_now: ∀ i: 1 |..| (index - 1) ¦ queue.sequence [i] /= key
 				if_found: Result ⇒ ∃ i: 1 |..| (rear - 1) ¦ queue.sequence [i] = key
 			until
-				index < rear ∨ Result -- index >= rear ∨ Result
+				index < rear ∨ Result
 			loop
 				if key = queue [index] then
 					Result := True

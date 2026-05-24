@@ -144,7 +144,7 @@ feature
 			if is_valid_amount (amount) then
 				if is_valid_balance_amount (balance, amount) then
 					balance := balance - amount
-					previous_transaction := amount -- previous_transaction := -amount
+					previous_transaction := amount
 				else
 					not_enough_money_penalty := 50
 					l_balance := balance - not_enough_money_penalty

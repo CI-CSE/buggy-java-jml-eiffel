@@ -127,7 +127,7 @@ feature {QS_STACK_QUEUE_87}
 			one_thing_on_stack: stack.top >= 2
 			is_wrapped: queue.is_wrapped ∧ stack.is_wrapped
 		do
-			Result := queue.peek - stack.peek -- Result := queue.peek + stack.peek
+			Result := queue.peek - stack.peek
 		ensure
 			modify: modify (queue, stack)
 			result_is_correct: Result = queue.get_elem (queue.front) + stack.get_elem (stack.top)

@@ -29,7 +29,7 @@ feature
 				stops_early_enogh: not Result ⇒ i <= mid
 
 			until
-				i <= mid ∨ not Result -- i > mid ∨ not Result
+				i <= mid ∨ not Result
 			loop
 				if div (a, i) = 0 then
 					Result := False

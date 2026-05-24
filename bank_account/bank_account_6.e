@@ -78,7 +78,7 @@ feature
 			status: pure
 			explicit: contracts
 		do
-			if a_amount <= 0 then -- if 0 < a_amount then
+			if a_amount <= 0 then
 				Result := True
 			else
 				Result := False

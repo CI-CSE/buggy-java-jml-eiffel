@@ -69,7 +69,7 @@ feature {QS_STACK_QUEUE_71}
 			two_things_in_queue: 3 <= queue.rear
 			is_wrapped: queue.is_wrapped
 		do
-			queue.enter (queue.delete - queue.delete) -- queue.enter (queue.delete + queue.delete)
+			queue.enter (queue.delete - queue.delete)
 			Result := queue.get_elem (queue.get_rear - 1)
 		ensure
 			modify: modify (queue)

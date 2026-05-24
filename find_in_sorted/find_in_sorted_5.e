@@ -12,7 +12,7 @@ feature
 			if a_start = a_end then
 				Result := 0
 			else
-				mid := a_start - (a_end - a_start) // 2 -- mid := a_start + (a_end - a_start) // 2
+				mid := a_start - (a_end - a_start) // 2
 				if a_x < a_arr [mid] then
 					Result := binary_search (a_arr, a_x, a_start, mid)
 				elseif a_x > a_arr [mid] then

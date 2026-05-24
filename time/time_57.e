@@ -375,7 +375,7 @@ feature
 			a_stop_is_wrapped: a_stop.is_wrapped
 			req: a_stop.later_than (a_start) or a_start.later_than (a_stop) or a_stop.equals (a_start)
 		do
-			Result := if not a_stop.later_than (a_start) then -- Result := if a_stop.later_than (a_start) then
+			Result := if not a_stop.later_than (a_start) then
 				trusted_difference (a_start, a_stop)
 			else
 				trusted_difference (a_stop, a_start)

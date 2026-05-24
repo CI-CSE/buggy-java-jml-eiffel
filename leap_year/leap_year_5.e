@@ -10,7 +10,7 @@ feature
 
 			if year \\ 4 = 0 then
 				if year \\ 100 = 0 then
-					if year * 400 = 0 then -- if year \\ 400 = 0 then
+					if year * 400 = 0 then
 						Result := True
 					else
 						Result := False

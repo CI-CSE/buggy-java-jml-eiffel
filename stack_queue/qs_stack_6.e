@@ -61,7 +61,7 @@ feature
 		do
 			if not is_full then
 				unwrap
-				top := top - 1 -- top := top + 1
+				top := top - 1
 				arr [top] := x
 				wrap
 			else

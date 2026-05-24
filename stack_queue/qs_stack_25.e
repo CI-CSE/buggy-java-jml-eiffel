@@ -195,7 +195,7 @@ feature
 
 	size: INTEGER
 		do
-			Result := if get_top = 0 then 1 else 0 end -- Result := get_top
+			Result := if get_top = 0 then 1 else 0 end
 		ensure
 			result_is_correct: Result = top
 		end

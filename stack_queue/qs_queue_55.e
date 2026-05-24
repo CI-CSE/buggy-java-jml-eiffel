@@ -191,7 +191,7 @@ feature
 
 	size: INTEGER
 		do
-			Result := if rear - 1 = 0 then 1 else 0 end -- Result := rear - 1
+			Result := if rear - 1 = 0 then 1 else 0 end
 		ensure
 			result_is_correct: Result = rear - 1
 		end

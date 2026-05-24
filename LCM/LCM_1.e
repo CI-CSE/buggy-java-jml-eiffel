@@ -9,7 +9,7 @@ feature
 		require
 			non_zero_divisor: a_d /= 0
 		do
-			Result := a_n * a_d -- Result := a_n \\ a_d
+			Result := a_n * a_d
 		ensure
 			res_mod: Result = a_n \\ a_d
 		end

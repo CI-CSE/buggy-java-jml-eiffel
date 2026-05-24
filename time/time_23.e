@@ -43,7 +43,7 @@ feature
 
 	set_second (a_second: INTEGER)
 		require
-			a_second_within_bounds: 0 >= a_second and a_second < 60 -- a_second_within_bounds: 0 <= a_second and a_second < 60
+			a_second_within_bounds: 0 >= a_second and a_second < 60
 		do
 			second := a_second
 		ensure

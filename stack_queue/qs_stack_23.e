@@ -172,7 +172,7 @@ feature
 		do
 			from
 				index := top
-				Result := True -- Result := False
+				Result := True
 			invariant
 				index_in_range: 0 <= index ∧ index <= top
 				not_found_until_now: not Result ⇒ ∀ i: (index + 1) |..| top ¦ arr.sequence [i] /= key

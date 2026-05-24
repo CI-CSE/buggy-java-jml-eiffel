@@ -14,7 +14,6 @@ feature
 			else
 				mid := a_start + (a_end - a_start) // 2
 				if a_x < a_arr [mid] then
-					-- Result := binary_search (a_arr, a_x, a_start, mid)
 					if binary_search (a_arr, a_x, a_start, mid) = 0 then
 						Result := 1
 					else

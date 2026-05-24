@@ -123,7 +123,7 @@ feature
 					minute := minute - 1
 					if minute < 0 then
 						minute := 59
-						hour := hour + 1 -- hour := hour - 1
+						hour := hour + 1
 						-- if hour < 0 then
 						-- 	hour := 23
 						-- end

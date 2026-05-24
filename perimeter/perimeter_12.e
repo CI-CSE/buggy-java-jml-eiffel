@@ -22,7 +22,7 @@ feature
 			pentagon_perimeter: INTEGER
 		do
 			pentagon_perimeter := 5 * a_x
-			Result := (pentagon_perimeter + 1) -- Result := pentagon_perimeter
+			Result := (pentagon_perimeter + 1)
 		ensure
 			res_perimeter_pentagon: Result = 5 * a_x
 		end

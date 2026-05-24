@@ -70,7 +70,7 @@ feature
 			trapezium_perimeter: INTEGER
 		do
 			trapezium_perimeter := a_w + a_x + a_y + a_z
-			Result := (trapezium_perimeter + 1) -- Result := trapezium_perimeter
+			Result := (trapezium_perimeter + 1)
 		ensure
 			res_perimeter_trapezium: Result = a_w + a_x + a_y + a_z
 		end

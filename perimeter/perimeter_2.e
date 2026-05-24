@@ -21,7 +21,7 @@ feature
 		local
 			pentagon_perimeter: INTEGER
 		do
-			pentagon_perimeter := 5 // a_x -- pentagon_perimeter := 5 * a_x
+			pentagon_perimeter := 5 // a_x
 			Result := pentagon_perimeter
 		ensure
 			res_perimeter_pentagon: Result = 5 * a_x

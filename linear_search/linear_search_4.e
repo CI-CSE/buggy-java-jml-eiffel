@@ -43,7 +43,7 @@ feature
 				array.count - c - if found = False then 0 else 1 end
 			end
 
-			if c /= array.count + 1 then -- if c = array.count + 1 then
+			if c /= array.count + 1 then
 				location := -1
 			end
 

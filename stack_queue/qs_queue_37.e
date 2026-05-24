@@ -104,7 +104,7 @@ feature
 			is_fully_writable
 			is_wrapped: is_wrapped
 		do
-			if is_empty then -- if not is_empty then
+			if is_empty then
 				Result := queue [front]
 			else
 				unwrap

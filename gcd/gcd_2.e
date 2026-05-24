@@ -7,7 +7,7 @@ feature
 		require
 			divisor_not_zero: d /= 0
 		do
-			Result := if n \\ d = 0 then 1 else 0 end -- Result := n \\ d
+			Result := if n \\ d = 0 then 1 else 0 end
 		ensure
 			correct_result: Result = n \\ d
 		end

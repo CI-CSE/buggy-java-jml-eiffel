@@ -104,7 +104,7 @@ feature
 
 	convert_to_seconds: INTEGER
 		do
-			Result := hour * 60 * 60 + minute * 60 - second -- Result := hour * 60 * 60 + minute * 60 + second
+			Result := hour * 60 * 60 + minute * 60 - second
 		ensure
 			result_in_seconds: Result = hour * 60 * 60 + minute * 60 + second
 		end

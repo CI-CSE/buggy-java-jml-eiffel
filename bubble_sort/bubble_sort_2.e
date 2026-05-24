@@ -28,7 +28,7 @@ feature
 				tail_head_leq_tail: ∀ t: (n - i + 2) |..| n ¦ n - i + 2 <= n and then a.sequence [n - i + 2] <= a.sequence [t]
 				tail_sorted: 1 < i implies ∀ h: (n - i + 2) |..| n ¦ ∀ p: (n - i + 2) |..| h ¦ a.sequence [p] <= a.sequence [h]
 			until
-				i < n -- i >= n
+				i < n
 			loop
 				from
 					j := 1

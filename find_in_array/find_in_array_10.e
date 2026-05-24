@@ -106,7 +106,7 @@ feature
 				if get_arr (index) = get_key then
 					Result := index
 				end
-				index := index + 1 -- index := index - 1
+				index := index + 1
 			variant
 				index
 			end

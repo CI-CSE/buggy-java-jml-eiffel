@@ -177,7 +177,6 @@ feature
 			set_minute (a_minute)
 			set_second (a_second)
 			check assignment: hour = a_hour and minute = a_minute and second = a_second end
-			-- timer
 		ensure
 			is_wrapped: is_wrapped
 			modify_model ("second", Current)

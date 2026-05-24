@@ -230,7 +230,7 @@ feature
 		-- 	status: functional
 		do
 			Result := if attached {TIME_42} a_object as a_time then
-				(hour = a_time.get_hour and minute = a_time.get_minute and second /= a_time.get_second) -- (hour = a_time.get_hour and minute = a_time.get_minute and second = a_time.get_second)
+				(hour = a_time.get_hour and minute = a_time.get_minute and second /= a_time.get_second)
 			else
 				False
 			end

@@ -9,7 +9,7 @@ feature
 			low, high, mid: INTEGER
 		do
 			if arr.count = 0 then
-				Result := 0 -- Result := -1
+				Result := 0
 			else
 				low := 1
 				high := arr.count + 1

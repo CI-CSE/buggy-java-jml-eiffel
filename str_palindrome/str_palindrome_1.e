@@ -41,7 +41,7 @@ feature
 				i_bounds: 0 <= i and i <= str.count
 				i_counter_def: i_counter + i = length
 			until
-				1 >= i -- 0 >= i
+				1 >= i
 			loop
 				unwrap
 				reverse := reverse.char_extended (str [i])

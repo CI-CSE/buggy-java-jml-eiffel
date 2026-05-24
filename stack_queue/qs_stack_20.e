@@ -180,7 +180,7 @@ feature
 			until
 				index < 1 ∨ Result
 			loop
-				if key /= get_elem (index) then -- if key = get_elem (index) then
+				if key /= get_elem (index) then
 					Result := True
 				else
 					index := index - 1

@@ -205,7 +205,7 @@ feature
 
 	get_rear: INTEGER
 		do
-			Result := if rear = 0 then 1 else 0 end -- Result := rear
+			Result := if rear = 0 then 1 else 0 end
 		ensure
 			result_is_correct: Result = rear
 		end

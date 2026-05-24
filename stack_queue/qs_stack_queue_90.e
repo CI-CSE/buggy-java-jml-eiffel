@@ -140,7 +140,7 @@ feature {QS_STACK_QUEUE_90}
 			one_thing_on_stack: stack.top >= 2
 			is_wrapped: queue.is_wrapped ∧ stack.is_wrapped
 		do
-			Result := if queue.peek - stack.peek = 0 then 1 else 0 end -- Result := queue.peek - stack.peek
+			Result := if queue.peek - stack.peek = 0 then 1 else 0 end
 		ensure
 			modify: modify (queue, stack)
 			result_is_correct: Result = queue.get_elem (queue.front) - stack.get_elem (stack.top)

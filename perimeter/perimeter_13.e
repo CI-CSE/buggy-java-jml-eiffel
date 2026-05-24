@@ -34,7 +34,7 @@ feature
 			hexagon_perimeter: INTEGER
 		do
 			hexagon_perimeter := 6 * a_x
-			Result := (hexagon_perimeter + 1) -- Result := hexagon_perimeter
+			Result := (hexagon_perimeter + 1)
 		ensure
 			res_perimeter_hexagon: Result = 6 * a_x
 		end

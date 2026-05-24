@@ -10,7 +10,7 @@ feature
 			else
 				from
 					l_index := 1
-					Result := False -- Result := True
+					Result := False
 				invariant
 					l_index_within_bounds_and_a_x_a_y_count_unmodified: 1 <= l_index and l_index <= (a_x.sequence.count + 1) and a_x.sequence.count = a_y.sequence.count
 					partially_inverted: Result implies (∀ i: 1 |..| (l_index - 1) ¦ a_x.sequence [i] = a_y.sequence [(a_x.sequence.count + 1) - i])

@@ -91,7 +91,7 @@ feature
 			if not is_empty then
 				Result := arr [top]
 				unwrap
-				top := top + 1 -- top := top - 1
+				top := top + 1
 				wrap
 			else
 				unwrap

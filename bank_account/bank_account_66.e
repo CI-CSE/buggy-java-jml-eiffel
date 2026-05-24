@@ -275,7 +275,6 @@ feature
 		do
 			inspect option
 			when 1 then
-				-- deposit (amount) -- missing call bug
 				Result := get_balance
 			when 2 then
 				withdraw (amount)

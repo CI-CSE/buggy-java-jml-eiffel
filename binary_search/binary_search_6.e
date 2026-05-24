@@ -23,7 +23,7 @@ feature
 				until
 					low >= high or else arr [mid] = key
 				loop
-					if arr [mid] >= key then -- if arr [mid] < key then
+					if arr [mid] >= key then
 						low := mid + 1
 					else
 						high := mid

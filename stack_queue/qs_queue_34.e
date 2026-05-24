@@ -75,7 +75,7 @@ feature
 					unwrap
 					queue [i] := queue [i + 1]
 					wrap
-					i := i - 1 -- i := i + 1
+					i := i - 1
 				variant
 					max - i
 				end

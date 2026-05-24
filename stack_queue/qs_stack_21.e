@@ -181,7 +181,7 @@ feature
 				index < 1 ∨ Result
 			loop
 				if key = get_elem (index) then
-					Result := False -- Result := True
+					Result := False
 				else
 					index := index - 1
 				end

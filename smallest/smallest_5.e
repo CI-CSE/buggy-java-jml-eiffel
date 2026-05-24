@@ -19,7 +19,7 @@ feature
 				until
 					a.count + 1 - index <= 0
 				loop
-					if a [index] >= a [v_smallest] then -- if a [index] < a [v_smallest] then
+					if a [index] >= a [v_smallest] then
 						v_smallest := index
 					end
 					index := index + 1

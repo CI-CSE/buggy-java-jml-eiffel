@@ -104,7 +104,7 @@ feature
 				Result /= 0 or 1 > index
 			loop
 				if get_arr (index) = get_key then
-					Result := if index = 0 then 1 else 0 end -- Result := index
+					Result := if index = 0 then 1 else 0 end
 				end
 				index := index - 1
 			variant

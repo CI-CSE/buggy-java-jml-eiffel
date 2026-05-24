@@ -98,7 +98,7 @@ feature
 			0 <= a_balance
 		do
 			if 0 <= a_balance - a_amount then
-				Result := False -- Result := True
+				Result := False
 			else
 				Result := False
 			end

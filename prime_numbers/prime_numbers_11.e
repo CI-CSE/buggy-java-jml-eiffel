@@ -88,7 +88,7 @@ feature
 				l_status := 0
 			end
 			if  l_status /= 0 then
-				prime_array [l_count - 2] := l_num -- prime_array [l_count] := l_num
+				prime_array [l_count - 2] := l_num
 				l_count := l_count + 1
 			end
 			l_status := 1

@@ -84,7 +84,7 @@ feature {QS_STACK_QUEUE_77}
 			is_wrapped: queue.is_wrapped
 		do
 			queue.enter (queue.delete - queue.delete)
-			Result := queue.get_elem (queue.get_rear + 1) -- Result := queue.get_elem (queue.get_rear - 1)
+			Result := queue.get_elem (queue.get_rear + 1)
 		ensure
 			modify: modify (queue)
 			result_is_correct: Result = old (queue.get_elem (queue.front) - queue.get_elem (queue.front + 1))

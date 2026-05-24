@@ -264,7 +264,7 @@ feature {QS_STACK_QUEUE_103}
 			when 0 then queue.enter (input)
 			when 1 then Result := queue.delete
 			when 2 then Result := queue.search (input)
-			when 3 then Result := if not queue.is_contain (input) then 1 else 0 end -- when 3 then Result := if queue.is_contain (input) then 1 else 0 end
+			when 3 then Result := if not queue.is_contain (input) then 1 else 0 end
 			when 4 then Result := queue_plus (queue)
 			when 5 then Result := queue_minus (queue)
 			when 6 then Result := queue_division (queue)

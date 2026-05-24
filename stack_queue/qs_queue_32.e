@@ -70,7 +70,7 @@ feature
 					i_in_range: 1 <= i ∧ i < rear
 
 				until
-					i + 1 < rear -- i + 1 >= rear
+					i + 1 < rear
 				loop
 					unwrap
 					queue [i] := queue [i + 1]

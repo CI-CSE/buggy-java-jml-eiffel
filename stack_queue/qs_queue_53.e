@@ -181,7 +181,7 @@ feature
 	is_full: BOOLEAN
 		do
 			if max + 1 = get_rear then
-				Result := False -- Result := True
+				Result := False
 			else
 				Result := False
 			end

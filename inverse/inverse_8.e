@@ -6,7 +6,7 @@ feature
 			l_index: INTEGER
 		do
 			if a_x.count /= a_y.count then
-				Result := True -- Result := False
+				Result := True
 			else
 				from
 					l_index := 1

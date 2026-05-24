@@ -80,7 +80,7 @@ feature
 					max - i
 				end
 				unwrap
-				rear := rear + 1 -- rear := rear - 1
+				rear := rear + 1
 				wrap
 				Result := poll
 			else

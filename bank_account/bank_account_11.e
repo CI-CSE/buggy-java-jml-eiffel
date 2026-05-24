@@ -97,7 +97,7 @@ feature
 			is_valid_amount (a_amount)
 			0 <= a_balance
 		do
-			if 0 > a_balance - a_amount then -- if 0 <= a_balance - a_amount then
+			if 0 > a_balance - a_amount then
 				Result := True
 			else
 				Result := False

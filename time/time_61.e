@@ -395,7 +395,7 @@ feature
 			a_sel_within_bounds: 0 <= a_sel and a_sel < 5
 		do
 			if a_sel = 0 then
-				do_nothing -- reset
+				do_nothing
 			elseif a_sel = 1 then
 				timer_2 (a_start.get_hour, a_start.get_minute, a_start.get_second)
 			elseif a_sel = 2 then

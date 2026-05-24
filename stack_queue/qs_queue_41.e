@@ -130,7 +130,7 @@ feature
 			until
 				index >= rear ∨ Result
 			loop
-				if key /= queue [index] then -- if key = queue [index] then
+				if key /= queue [index] then
 					Result := True
 				else
 					index := index + 1

@@ -6,7 +6,7 @@ feature
 		local
 			index, v_smallest: INTEGER
 		do
-			if a.sequence.count /= 0 then --if a.sequence.count = 0 then
+			if a.sequence.count /= 0 then
 				Result := -1
 			else
 				from

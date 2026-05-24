@@ -26,13 +26,11 @@ feature
 				else
 					Result := -1
     		end
-			-- Begin bug
 			if Result = 0 then
 				Result := 1
 			else
 				Result := 0
 			end
-			-- end bug
 		ensure
 			valid_sum:
        			(a_operator = '+') implies Result = a_num1 + a_num2

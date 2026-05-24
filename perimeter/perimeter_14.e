@@ -46,7 +46,7 @@ feature
 			perimeter_rectangle: INTEGER
 		do
 			perimeter_rectangle := 2 * (a_x + a_y)
-			Result := (perimeter_rectangle + 1) -- Result := perimeter_rectangle
+			Result := (perimeter_rectangle + 1)
 		ensure
 			res_perimeter_rectangle: Result = 2 * a_x + 2 * a_y
 		end

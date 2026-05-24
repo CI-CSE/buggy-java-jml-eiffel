@@ -155,7 +155,7 @@ feature
 				not_found: ∀ i: 1 |..| (index - 1) ¦ queue.sequence [i] /= key
 				if_in_range_then_correct: 1 <= Result ∧ Result < rear ⇒ queue.sequence [Result] = key
 			until
-				index > rear ∨ Result /= -1 -- index >= rear ∨ Result /= -1
+				index > rear ∨ Result /= -1
 			loop
 				if key = queue [index] then
 					Result := index

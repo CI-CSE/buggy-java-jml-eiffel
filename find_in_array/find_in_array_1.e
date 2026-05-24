@@ -41,7 +41,6 @@ feature {NONE}
 			create arr.make (l_size)
 			create arr.make_from_array (input_arr)
 
-			-- set_key (a_key) -- bug removed
 		ensure
 			key_set: key = a_key
 			arr_equal: ∀ i: 1 |..| input_arr.count ¦ input_arr.sequence [i] = arr.sequence [i]

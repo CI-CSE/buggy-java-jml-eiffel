@@ -49,7 +49,7 @@ feature
 					if a [j + 1] < a [j] then
 						s.swap (j, j + 1, a)
 					end
-					j := j - 1 -- j := j + 1
+					j := j - 1
 				variant
 					n - j
 				end

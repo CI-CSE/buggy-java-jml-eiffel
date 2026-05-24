@@ -21,7 +21,7 @@ feature
 					factorial_positive: l_fact > 0
 					factorial_complies_with_spec_factorial: spec_factorial (l_c - 1) = l_fact
 				until
-					l_c >= a_n -- l_c > a_n
+					l_c >= a_n
 				loop
 					l_fact := l_fact * l_c
 					l_c := l_c + 1

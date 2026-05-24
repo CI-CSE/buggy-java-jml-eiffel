@@ -228,7 +228,7 @@ feature
 			atm_penalty, amount_with_penalty: INTEGER
 		do
 			atm_penalty := 4
-			if not is_valid_amount (amount) then -- if is_valid_amount (amount) then
+			if not is_valid_amount (amount) then
 				amount_with_penalty := amount + atm_penalty
 				if is_valid_balance_amount (balance, amount_with_penalty) then
 					balance := balance - amount_with_penalty

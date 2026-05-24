@@ -40,7 +40,7 @@ feature {QS_STACK_QUEUE_65}
 			second_elem_non_zero: stack.get_elem (stack.top - 1) /= 0
 			is_wrapped: stack.is_wrapped
 		do
-			stack.push (stack.pop * stack.pop) -- stack.push (stack.pop // stack.pop)
+			stack.push (stack.pop * stack.pop)
 			Result := stack.peek
 		ensure
 			modify: modify (stack)

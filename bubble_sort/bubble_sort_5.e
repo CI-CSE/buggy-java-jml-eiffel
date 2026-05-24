@@ -44,7 +44,7 @@ feature
 					all_previous_leq_current: ∀ k: 1 |..| (j - 1) ¦ a.sequence [k] <= a.sequence [j]
 					current_leq_tail: (1 < j and j < n - i + 2) implies ∀ t: (n - i + 2) |..| n ¦ a.sequence [j] <= a.sequence [t]
 				until
-					j >= n + i + 1 -- j >= n - i + 1
+					j >= n + i + 1
 				loop
 					if a [j + 1] < a [j] then
 						s.swap (j, j + 1, a)

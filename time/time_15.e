@@ -117,7 +117,7 @@ feature
 		do
 			if not is_time_zero then
 				unwrap
-				second := second + 1 -- second := second - 1
+				second := second + 1
 				if second < 0 then
 					second := 59
 					minute := minute - 1

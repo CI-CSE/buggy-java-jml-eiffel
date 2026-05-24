@@ -31,7 +31,7 @@ feature
 			until
 				i > mid ∨ not Result
 			loop
-				if div (a, i) /= 0 then -- if div (a, i) = 0 then
+				if div (a, i) /= 0 then
 					Result := False
 				else
 					i := i + 1

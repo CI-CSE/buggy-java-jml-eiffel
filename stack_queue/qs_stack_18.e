@@ -178,7 +178,7 @@ feature
 				not_found_until_now: not Result ⇒ ∀ i: (index + 1) |..| top ¦ arr.sequence [i] /= key
 				found: Result ⇒ ∃ i: 1 |..| top ¦ arr.sequence [i] = key
 			until
-				index <= 1 ∨ Result -- index < 1 ∨ Result
+				index <= 1 ∨ Result
 			loop
 				if key = get_elem (index) then
 					Result := True

@@ -64,7 +64,7 @@ feature
 	set_hour (a_hour: INTEGER)
 		require
 			is_wrapped: is_wrapped
-			a_hour_within_bounds: 0 <= a_hour and a_hour >= 24 -- a_hour_within_bounds: 0 <= a_hour and a_hour < 24
+			a_hour_within_bounds: 0 <= a_hour and a_hour >= 24
 		do
 			hour := a_hour
 		ensure

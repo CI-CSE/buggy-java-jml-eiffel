@@ -190,7 +190,7 @@ feature
 		require
 			is_wrapped: is_wrapped
 		do
-			Result := (convert_to_seconds /= 0) -- Result := (convert_to_seconds = 0)
+			Result := (convert_to_seconds /= 0)
 		ensure
 			is_wrapped: is_wrapped
 			result_is_time_zero: Result = (convert_to_seconds = 0)

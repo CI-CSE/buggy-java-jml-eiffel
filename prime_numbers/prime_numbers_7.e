@@ -78,7 +78,7 @@ feature
 					is_partially_sorted: ∀ i: 1 |..| (l_count - 1) ¦ ∀ j: 1 |..| (i - 1) ¦ prime_array.sequence [j] < prime_array.sequence [i]
 					partial_partial_prime_implies_coprime_with_all_smaller: ∀ i: 1 |..| (l_count - 1) ¦ ∀ j: 2 |..| (prime_array.sequence [i] // 2) ¦ not (prime_array.sequence [i] \\ j = 0)
 				until
-					(l_j > l_num * 2) or (l_num \\ l_j = 0) -- (l_j > l_num // 2) or (l_num \\ l_j = 0)
+					(l_j > l_num * 2) or (l_num \\ l_j = 0)
 				loop
 					l_j := l_j + 1
 				variant

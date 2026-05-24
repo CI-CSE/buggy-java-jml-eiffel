@@ -18,7 +18,6 @@ feature
 				elseif a_x > a_arr [mid] then
 					Result := binary_search (a_arr, a_x, mid + 1, a_end)
 				else
-					-- Result := mid
 					if mid = 0 then
 						Result := 1
 					else

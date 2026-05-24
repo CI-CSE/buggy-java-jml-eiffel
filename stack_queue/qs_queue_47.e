@@ -157,7 +157,7 @@ feature
 			until
 				index >= rear ∨ Result /= -1
 			loop
-				if key /= queue [index] then -- if key = queue [index] then
+				if key /= queue [index] then
 					Result := index
 				else
 					index := index + 1

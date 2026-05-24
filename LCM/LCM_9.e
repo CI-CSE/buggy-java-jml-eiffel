@@ -49,7 +49,7 @@ feature
 				variant
 					{INTEGER}.Max_value - Result
 				end
-				if not (div (Result, l_num1) /= 0 and div (Result, l_num2) = 0) then -- if not (div (Result, l_num1) = 0 and div (Result, l_num2) = 0) then
+				if not (div (Result, l_num1) /= 0 and div (Result, l_num2) = 0) then
 					Result := -1
 				end
 			end

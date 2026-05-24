@@ -34,7 +34,6 @@ feature
 			a_arr_not_empty: a_arr.sequence.count > 0
 			a_arr_sorted: ∀ j: 1 |..| a_arr.sequence.count ¦ ∀ i: 1 |..| (j - 1) ¦ a_arr.sequence [i] <= a_arr.sequence [j]
 		do
-			-- Result := binary_search (a_arr, a_x, 1, (a_arr.count + 1))
 			if binary_search (a_arr, a_x, 1, (a_arr.count + 1)) = 0 then
 				Result := 1
 			else 

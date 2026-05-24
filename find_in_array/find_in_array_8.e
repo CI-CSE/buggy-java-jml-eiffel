@@ -103,7 +103,7 @@ feature
 			until
 				Result /= 0 or 1 > index
 			loop
-				if get_arr (index) /= get_key then -- if get_arr (index) = get_key then
+				if get_arr (index) /= get_key then
 					Result := index
 				end
 				index := index - 1

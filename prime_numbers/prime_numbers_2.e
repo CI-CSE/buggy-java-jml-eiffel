@@ -22,7 +22,7 @@ feature {NONE}
 			a_n_lower_bound: 2 <= a_n
 			a_d_lower_bound: 2 <= a_d
 		do
-			Result := (a_n \\ a_d) /= 0 -- Result := (a_n \\ a_d) = 0
+			Result := (a_n \\ a_d) /= 0
 		ensure
 			a_n_is_multiple_a_d: (Result) = (a_n \\ a_d = 0)
 		end

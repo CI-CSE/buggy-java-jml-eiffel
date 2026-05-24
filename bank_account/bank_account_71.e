@@ -292,7 +292,6 @@ feature
 				withdraw_by_cash_back (amount)
 				Result := get_balance
 			when 7 then
-				-- foreign_deposit (amount) -- missing call is the bug
 				Result := get_balance
 			when 8 then
 				Result := interest_after_year

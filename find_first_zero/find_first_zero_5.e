@@ -17,7 +17,7 @@ feature
 					no_zero_before: ∀ i: 1 |..| (index - 1) ¦ x.sequence [i] /= 0
 					index_bounds: 1 <= index and index <= x.count + 1
 				until
-					x.count - index < 0 or else x [index] /= 0 -- x.count - index < 0 or else x [index] = 0
+					x.count - index < 0 or else x [index] /= 0
 				loop
 					index := index + 1
 				variant

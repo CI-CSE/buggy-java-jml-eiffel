@@ -11,7 +11,7 @@ feature
 		do
 			l_fact := 1
 			check spec_factorial_zero: spec_factorial (0) = 1 end
-			if a_n /= 0 then -- if a_n = 0 then
+			if a_n /= 0 then
 				Result := l_fact
 			else
 				from

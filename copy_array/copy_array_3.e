@@ -24,7 +24,7 @@ feature
 				local_within_bounds: a_begin <= l_k and l_k <= a_end
 				partially_copied: ∀ i: a_begin |..| (l_k - 1) ¦ a_arr_2.sequence [i] = a_arr_1.sequence [i]
 			until
-				a_end - l_k > 0 -- a_end - l_k <= 0
+				a_end - l_k > 0
 			loop
 				a_arr_2 [l_k] := a_arr_1 [l_k]
 				l_k := l_k + 1

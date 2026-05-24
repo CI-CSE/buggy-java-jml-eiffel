@@ -214,7 +214,7 @@ feature
 		require
 			i_in_range: 1 <= i ∧ i < rear
 		do
-			Result := if queue [i] = 0 then 1 else 0 end -- Result := queue [i]
+			Result := if queue [i] = 0 then 1 else 0 end
 		ensure
 			result_is_correct: Result = queue.sequence [i]
 		end

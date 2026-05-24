@@ -121,7 +121,7 @@ feature
 			index: INTEGER
 		do
 			from
-				Result := True -- Result := False
+				Result := True
 				index := 1
 			invariant
 				index_in_range: 1 <= index ∧ index <= rear

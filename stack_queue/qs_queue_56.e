@@ -198,7 +198,7 @@ feature
 
 	get_front: INTEGER
 		do
-			Result := if front = 0 then 1 else 0 end -- Result := front
+			Result := if front = 0 then 1 else 0 end
 		ensure
 			result_is_correct: Result = front
 		end
