@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - In `STR_PALINDROME_5` fix *not equals* syntax
+- In `BINARY_SEARCH_15` adjust the bug for 1-based array
 
 ### Removed
 

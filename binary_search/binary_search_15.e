@@ -36,7 +36,7 @@ feature
 				if low >= high then
 					Result := -1
 				else
-					Result := if mid = 0 then 1 else 0 end
+					Result := if mid = 1 then 2 else 1 end
 				end
 			end
 		ensure
